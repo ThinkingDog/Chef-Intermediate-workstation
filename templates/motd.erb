@@ -1,0 +1,8 @@
+Property of ... DCB
+
+  IPADDRESS       : <%= node["ipaddress"] %>
+  PUBLIC IP       : <%= node["ec2"]["public_ipv4"] %>
+  HOSTNAME        : <%= node["hostname"] %>
+  PUBLIC HOSTNAME : <%= node["ec2"]["public_hostname"] %>
+  MEMORY          : <%= node["memory"]["total"] %>
+  CPU             : <%= node["cpu"]["0"]["mhz"] %>
